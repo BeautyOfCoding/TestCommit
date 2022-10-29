@@ -12,6 +12,7 @@ namespace AGVTest
             Task.Run(() => 
             {
                 Console.WriteLine("this is the first thread");
+                Console.WriteLine("this is the second thread");
             });
 
         }
